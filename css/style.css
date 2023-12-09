@@ -3,6 +3,10 @@ html {
   scroll-padding: var(--scroll-padding, 1rem);
 }
 
+h2,p {
+  color: black;
+}
+
 .login-container {
   width: 300px;
   padding: 20px;

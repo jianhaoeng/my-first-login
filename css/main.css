@@ -99,7 +99,7 @@ html {
 }
 
 .cover-bg {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner.webp");
   height: 50vh;
 }
 
@@ -141,6 +141,7 @@ html {
 
 .avatar img {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 footer a:not(.nav-link) {
