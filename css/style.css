@@ -7,6 +7,10 @@ h2,p {
   color: black;
 }
 
+.name,.desc {
+  color: white;
+}
+
 .login-container {
   width: 300px;
   padding: 20px;
@@ -37,7 +41,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #db4315;
 }
 
 .top-progress-bar {
@@ -46,7 +50,7 @@ button:hover {
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #37bc9b;
+  background-color: #60db0ea1;
   transition: width 0.3s ease;
   z-index: 1000;
 }
@@ -116,7 +120,7 @@ button:hover {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: #37bc9b;
+  background: #12d3b3;
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
